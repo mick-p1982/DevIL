@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
+
+#COLLADA-DOM #disable no VERSION warnings
+cmake_policy(SET CMP0048 OLD)
+
 project(DevIL)
 
 include (TestBigEndian)
